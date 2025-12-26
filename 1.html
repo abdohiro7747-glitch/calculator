@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <link rel="stylesheet" href="1.css">
+    <meta charset="UTF-8">
+    <title>حاسبة بسيطة</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="1.js"></script>
+    <div class="calculator">
+        <h2>🧮 حاسبة بسيطة</h2>
+
+        <input type="number" id="num1" placeholder="الرقم الأول">
+        <input type="number" id="num2" placeholder="الرقم الثاني">
+
+        <button onclick="calculate('+')">جمع</button>
+        <button onclick="calculate('-')">طرح</button>
+        <button onclick="calculate('*')">ضرب</button>
+        <button onclick="calculate('/')">قسمة</button>
+
+        <h3 id="result">النتيجة: </h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
